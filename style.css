@@ -155,3 +155,74 @@ header i {
     display: block;
     margin: 10px 5px 0 0;
 }
+
+.weather-part .weather {
+    font-size: 21px;
+    text-align: center;
+    margin: -5px 20px 15px;
+}
+
+.weather-part .location {
+    display: flex;
+    font-size: 19px;
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    align-items: flex-start;
+  }
+
+
+.location i {
+    font-size: 22px;
+    margin: 4px 5px 0 0;
+}
+
+.weather-part .bottom-details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid #333 ;
+}
+
+.bottom-details .column {
+    display: flex;
+    width: 100%;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.column i {
+    color: #43affc;
+    font-size: 40px;
+}
+
+.column.humidity {
+    border-left: 1px solid #333;
+}
+
+.column .details {
+    margin-left: 3px;
+}
+
+.details .temp,
+.humidity span {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -3px;
+}
+
+.details .temp .deg {
+    margin: 0;
+    font-size: 17px;
+    margin-top: -3px;
+}
+
+.details .temp p {
+    font-size: 14px;
+    margin-top: -6px;
+}
+
+.humidity {
+    font-size: 37px;
+}
